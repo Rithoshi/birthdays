@@ -6,7 +6,7 @@ birthdays = {
     'Rowan Atkinson': '01/6/1955'}
 
 def print_birthdays():
-    print('Welcome to the birthday dictionary. We know the birthdays of these people:')
+    print('Welcome to the birthday dictionary. These are the birthdays:')
     for name in birthdays:
         print(name)
 
@@ -14,5 +14,5 @@ def return_birthday(name):
     if name in birthdays:
         print('{}\'s birthday is {}.'.format(name, birthdays[name]))
     else:
-        print('Sadly, we don\'t have {}\'s birthday.'.format(name))
+        print('Noooooooo, we don\'t have {}\'s birthday.'.format(name))
 
