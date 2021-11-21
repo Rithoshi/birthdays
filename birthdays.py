@@ -7,7 +7,7 @@ birthdays = {
     'Benjamin Franklin': '01/17/1706',
     'Ada Lovelace': '12/10/1815',
     'Donald Trump': '06/14/1946',
-    'Pietro': '01/6/1955'}
+    'Pietro prova': '01/6/1955'}
 #Ciao
 def print_birthdays():
     '''This function print the name of VIP inside the dictionary, so the available birthdays. '''
