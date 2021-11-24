@@ -1,6 +1,14 @@
 #! /usr/bin/env python3
 
-from birthdays import return_birthday
+from mypackage import firstmodule
+import sys
 
-return_birthday('Albert Einstein')
-return_birthday('Alan Turing')
+
+if len(sys.argv) > 1:
+    name = sys.argv[1]
+else:
+    print("Give me a name to test")
+    exit()
+
+firstmodule.return_birthday(name)
+
