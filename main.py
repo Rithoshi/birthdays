@@ -2,6 +2,8 @@
 
 from mypackage import firstmodule
 import argparse
+import pandas as pd
+
 def parse_arguments():
     parser = argparse.ArgumentParser()
     parser.add_argument("-name", 
