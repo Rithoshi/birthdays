@@ -15,9 +15,15 @@ def print_birthdays():
     for name in birthdays:
         print(name)
 
-def return_birthday(name):
+def return_birthday(name,v):
     '''This function has a name as inpit and return the birthday if available, or an error if not '''
     if name in birthdays:
-        print('{}\'s birthday is {}.'.format(name, birthdays[name]))
+        if v==False:
+            print('{}\'s birthday is {}.'.format(name, birthdays[name]))
+        else:
+            print(birthdays[name])
     else:
-        print('Noooooooo, we don\'t have {}\'s birthday.'.format(name))
+        if v==False:
+            print('Noooooooo, we don\'t have {}\'s birthday.'.format(name))
+        else:
+            print("IDK")
